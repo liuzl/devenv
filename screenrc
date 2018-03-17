@@ -1,0 +1,10 @@
+hardstatus on                                                                                                                                                                                                                               
+hardstatus alwayslastline
+startup_message off 
+termcapinfo xterm ti@:te@
+hardstatus string "%{= kG}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a"
+defencoding utf-8 
+encoding utf-8 utf-8
+#encoding utf-8 gbk 
+
+zmodem catch

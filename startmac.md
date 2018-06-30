@@ -6,3 +6,4 @@
 * iTerm2
 * 迅雷
 * Anaconda
+* Golang

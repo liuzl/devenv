@@ -7,3 +7,5 @@
 * 迅雷
 * Anaconda
 * Golang
+* ~Atom~
+* VS Code

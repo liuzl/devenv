@@ -9,3 +9,5 @@
 * Golang
 * ~Atom~
 * VS Code
+* brew
+* jq

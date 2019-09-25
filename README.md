@@ -8,3 +8,13 @@
 ## 配置多个Java版本
 
 * https://segmentfault.com/a/1190000013131276
+
+## golang安装
+
+```sh
+cd ~
+git clone https://github.com/liuzl/devenv
+wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
+tar -xvzf go1.13.linux-amd64.tar.gz
+cat devenv/goenv.bashrc >> .bashrc
+```

@@ -18,3 +18,9 @@ wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 tar -xvzf go1.13.linux-amd64.tar.gz
 cat devenv/goenv.bashrc >> .bashrc
 ```
+
+## 设置windows终端的环境变量
+```sh
+$env:HTTPS_PROXY="http://127.0.0.1:8001"
+$env:HTTP_PROXY="http://127.0.0.1:8001"
+```

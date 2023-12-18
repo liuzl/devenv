@@ -24,3 +24,9 @@ cat devenv/goenv.bashrc >> .bashrc
 $env:HTTPS_PROXY="http://127.0.0.1:8001"
 $env:HTTP_PROXY="http://127.0.0.1:8001"
 ```
+
+## 设置Mac在命令行打开vscode
+```sh
+# 在zshrc中添加
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+```
